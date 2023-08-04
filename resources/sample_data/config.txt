@@ -1,0 +1,7 @@
+["Basic Info",
+"chr",
+"pos",
+"ref",
+"alt",
+"rs_dbSNP151",
+"ANNOVAR_ensembl_Effect"]

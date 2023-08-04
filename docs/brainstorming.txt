@@ -1,0 +1,32 @@
+Commands
+
+annoq load
+  -c [config file]
+  –vcf [vcf file][optional]
+  –rsid [rsid list file][optional]
+  –chr [chromosome][optional]
+
+annoq search 
+  -s [search type]
+  –chr [chromosome][optional]
+  –start [position start]
+  –end [position end]
+  –gp [gene product]
+
+annoq search_chr
+  –chr [chromosome][optional]
+  –start [position start]
+  –end [position end]
+
+annoq search_gp
+  –gp [gene product]
+
+annoq search_rsid
+
+annoq reset
+
+annoq download
+  -o [output]
+  –type [Jason | csv | tsv ]
+
+annoq submit (for bigger jobs)

@@ -1,0 +1,6 @@
+elasticsearch==8.5.3
+prompt-toolkit==3.0.39
+python-dotenv==0.21.0
+requests==2.28.1
+pydantic
+psutil
