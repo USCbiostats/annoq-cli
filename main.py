@@ -5,10 +5,12 @@ from prompt_toolkit import PromptSession
 from prompt_toolkit.auto_suggest import AutoSuggestFromHistory
 from prompt_toolkit.completion import PathCompleter
 from prompt_toolkit import PromptSession
+from src.query import search_chr
 
 from src.utils import load_json
+from src.variables import VARIABLES
 
-VARIABLES = {}
+
 
 def load(*args):
     parser = argparse.ArgumentParser()
@@ -29,9 +31,6 @@ def load(*args):
 
 def search(*args):
     print(f"Searching with args: {args}")
-
-def search_chr(*args):
-    print(f"Searching chromosome with args: {args}")
 
 def search_gp(*args):
     print(f"Searching gene product with args: {args}")
@@ -115,3 +114,4 @@ if __name__ == "__main__":
 
 # python3 -m main
 # load -c resources/sample_data/config.txt
+# search_chr --chr 2 --start 10 --end 1000
